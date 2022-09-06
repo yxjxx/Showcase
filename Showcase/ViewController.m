@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.overrideUserInterfaceStyle = UIUserInterfaceStyleDark;
 
     UIImage *savedImage = [UIImage imageWithContentsOfFile:self.imagePath];
     
